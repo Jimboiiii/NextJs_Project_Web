@@ -150,7 +150,7 @@ export function Navbar() {
       </div>
 
       {showUsers && (
-      <div ref={dropdownUsers} className=" z-50 fixed scrollbar-hidden w-55 border-r border-[.5px] border-solid border-t-gray-600 shadow-[4px_0_10px_rgba(0,0,0,0.1)] bg-white rounded-br-lg top-[64.5px] bottom-0 overflow-y-auto overflow-x-hidden ">
+      <div ref={dropdownUsers} className=" z-50 fixed scrollbar-hidden w-55 border-r border-[.5px] border-solid border-t-gray-600 shadow-[4px_0_10px_rgba(0,0,0,0.1)] bg-white rounded-br-lg top-[64px] bottom-0 overflow-y-auto overflow-x-hidden ">
       {mainUser?.name && (
         <ul className=" py-2">
           {users.map((user: User) => {

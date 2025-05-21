@@ -102,7 +102,7 @@ export default function HomePage() {
 
   if (session) {
     return (
-      <main className='bg-[#f7f7f7] h-full min-h-screen'>
+      <main className='bg-[#4267b2] h-full  min-h-screen'>
           <Navbar />
 
           {showPost && (() => {
@@ -149,8 +149,8 @@ export default function HomePage() {
               </div>
             );
           })()}         
-
-        <div className="container mx-auto p-4 mt-4 w-4/5 lg:w-3/7 ">
+        <div className='w-full lg:w-[900px] bg-[#f7f7f7] grow mx-auto py-5 px-8 '>
+          <div className="container mx-auto p-4 w-10/11 md:w-5/6 ">
           <div className="space-y-6">
             {posts
             .filter(post => {
@@ -165,10 +165,10 @@ export default function HomePage() {
                   <button className='w-full cursor-pointer' onClick={() => setShowPost(post)}>
                     <div className='group p-4 -mx-4 -mt-4 rounded-lg text-black active:text-white hover:text-white active:bg-[#1877F2] hover:bg-[#4267b2]'>
                       <div className="flex items-center">
-                        <div className="flex flex-row items-center ">
-                        <p className="w-fit font-semibold whitespace-nowrap h-fit">{author?.name}</p>
-                        <div className="w-px h-10 mx-2 bg-black group-hover:bg-white group-active:bg-white"></div>
-                        <h3 className="text-left text-base md:text-xl font-bold ">{post.title}</h3>
+                        <div className="flex flex-col space-x-2 md:flex-row items-center ">
+                        <p className="w-full md:w-fit font-semibold text-left text-md md:whitespace-nowrap h-fit mr-0">{author?.name}</p>
+                        <div className="md:block w-px h-10 mx-2 bg-black group-hover:bg-white group-active:bg-white hidden "></div>
+                        <h3 className="w-full text-left text-lg mx-auto md:text-xl font-bold ">{post.title}</h3>
                       </div>
                       </div>
                     </div>
@@ -182,6 +182,8 @@ export default function HomePage() {
           })}
           </div>
         </div>
+        </div>
+        
       </main>
     );
   }
