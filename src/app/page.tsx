@@ -111,7 +111,7 @@ export default function HomePage() {
               <div className="fixed inset-0 flex justify-center items-center z-500 overflow-auto">
                 <div className="bg-gray-100 rounded-lg w-screen h-screen p-8 relative text-black flex flex-col">
                   <button
-                    className="absolute top-2 right-2 text-gray-400 hover:text-red-600 text-3xl lg:text-4xl"
+                    className="absolute top-2 right-2 text-gray-400 active:text-red-600 hover:text-red-600 text-3xl lg:text-4xl"
                     onClick={() => setShowPost(null)}
                   >
                     &times;
@@ -163,11 +163,11 @@ export default function HomePage() {
               return (
                 <div key={post.id} className="bg-white shadow-lg p-4 rounded-lg">
                   <button className='w-full cursor-pointer' onClick={() => setShowPost(post)}>
-                    <div className='group p-4 -mx-4 -mt-4 rounded-lg text-black hover:text-white active:bg-[#1877F2] hover:bg-[#4267b2]'>
+                    <div className='group p-4 -mx-4 -mt-4 rounded-lg text-black active:text-white hover:text-white active:bg-[#1877F2] hover:bg-[#4267b2]'>
                       <div className="flex items-center">
                         <div className="flex flex-row items-center ">
                         <p className="w-fit font-semibold whitespace-nowrap h-fit">{author?.name}</p>
-                        <div className="w-px h-10 mx-2 bg-black group-hover:bg-white"></div>
+                        <div className="w-px h-10 mx-2 bg-black group-hover:bg-white group-active:bg-white"></div>
                         <h3 className="text-left text-base md:text-xl font-bold ">{post.title}</h3>
                       </div>
                       </div>

@@ -62,7 +62,7 @@ export default function LoginPage() {
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                     <div className="mb-6">
                         <label htmlFor="loginEmail" className="block mb-2 text-md font-medium text-[#898F9C]">Email</label>
-                        <input {...register('email')} type="email" id="loginEmail" placeholder="Enter your email" className={`block w-full p-2.5 text-sm text-black placeholder-450 bg-transparent border-2 border-gray-300 focus:ring-blue-500 focus:to-blue-500  rounded-md`} />
+                        <input {...register('email')} type="email" id="loginEmail" placeholder="Enter your email" className={`block w-full p-2.5 text-sm text-black placeholder-450 bg-transparent border-2 border-gray-300 focus:ring-blue-500 focus:border-blue-500  rounded-md`} />
                         {errors.email && (
                             <span className='text-sm text-red-500'>{errors.email.message}</span>
                         ) }
@@ -86,7 +86,7 @@ export default function LoginPage() {
 
                     <div >
                         <p className="text-sm font-semibold text-[#637bad]">
-                        Don&apos;t have an account? <Link prefetch={true} href="/register" className="italic font-medium text-[gray-300] underline hover:text-[#13cf13]">Register here</Link>
+                        Don&apos;t have an account? <Link prefetch={true} href="/register" className="italic font-medium text-[gray-300] underline active:text-[#13cf13] hover:text-[#13cf13]">Register here</Link>
                         </p>
                     </div>
                 </form>
