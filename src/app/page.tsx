@@ -148,7 +148,8 @@ export default function HomePage() {
                 </div>
               </div>
             );
-          })()}         
+          })()}
+                   
         <div className='w-full lg:w-[900px] bg-[#f7f7f7] grow mx-auto py-5 px-8 '>
           <div className="container mx-auto p-4 w-10/11 md:w-5/6 ">
           <div className="space-y-6">
