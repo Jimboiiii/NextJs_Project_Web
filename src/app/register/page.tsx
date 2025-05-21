@@ -72,7 +72,6 @@ export default function RegistrationPage(){
     const mapContainer = useRef(null);
     const mapRef = useRef<maplibregl.Map | null> (null);
     const markerRef = useRef<maplibregl.Marker | null> (null);
-    const [phone, setPhone] = useState('');
     const [coordinates, setCoordinates] = useState({
         latitude: 0,
         longitude: 0,
@@ -95,7 +94,6 @@ export default function RegistrationPage(){
     });
 
     const onSubmit = (data: RegisterFormSchemaType) => {
-        setValue('phone', phone, { shouldValidate: true });
         if (data.coordinate.latitude === 0 && data.coordinate.longitude === 0) {
             const coordinateInput = document.getElementById('map');
             coordinateInput?.focus();
@@ -205,7 +203,7 @@ export default function RegistrationPage(){
 
                         <div>
                             <PhoneInput placeholder='Phone Number' name="phone" id="phone"
-                             onChange={(value) => setPhone(value)}
+                             onChange={(value) => setValue('phone', value, { shouldValidate: true })}
                             />
                             {errors.phone && (
                                 <span className='text-red-500 text-xs'>{errors.phone.message}</span>
