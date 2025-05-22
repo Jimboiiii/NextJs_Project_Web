@@ -160,11 +160,10 @@ export function Navbar() {
                 
                 <button
                   onClick={() => 
-                    router.push(`/address?accountName=${user.name}`)
+                    {mainUser?.name === 'Admin' ? router.push(`/address?accountName=${user.name}`) : null}
                   }
-                  className={`cursor-pointer w-full px-5 py-2.5 relative inline-flex items-center justify-left overflow-hidden text-sm font-medium group  active:bg-[#4267b2] hover:bg-[#4267b2]  active:text-white hover:text-white focus:outline-none ${selectedUser === user.name 
-                        ?  'bg-[#4267b2] text-white'
-                        : `bg-transparent text-gray-500`}`}
+                  className={` w-full px-5 py-2.5 relative inline-flex items-center justify-left overflow-hidden text-sm font-medium group  ${mainUser?.name === 'Admin' ? `cursor-pointer active:bg-[#4267b2] hover:bg-[#4267b2]  active:text-white hover:text-white focus:outline-none 
+                    ${selectedUser === user.name ?  'bg-[#4267b2] text-white' : "bg-transparent text-gray-500"}`: "cursor-defaultr" } `}
                 >
                     <div className="text-left">
                       <p className="text-sm font-semibold">{user.name}</p>

@@ -15,6 +15,7 @@ export const options: NextAuthOptions = {
           id: number;
           name: string;
           email: string;
+          username: string;
         };
 
         if (
@@ -25,6 +26,7 @@ export const options: NextAuthOptions = {
             id: 'admin',
             name: 'Admin',
             email: 'admin@admin.com',
+            username: 'Admin',
           } as User;
         }
 
@@ -34,7 +36,7 @@ export const options: NextAuthOptions = {
         const user = users.find(
           (u) =>
             u.email === credentials?.email &&
-            u.name === credentials?.password
+            u.username === credentials?.password
         );
 
         if (user) {
@@ -42,6 +44,7 @@ export const options: NextAuthOptions = {
             id: String(user.id),
             name: user.name,
             email: user.email,
+            username: user.username,
           } as User;
         }
 
