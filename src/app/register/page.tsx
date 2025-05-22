@@ -27,7 +27,7 @@ const RegisterFormSchema = z.object({
     longitude: z.number().min(-180).max(180),
   }),
     password: z.string({required_error: 'Password is required.'},
-    ).min(8, 'Password must be greater than 8 characters.'),
+    ).min(8, 'Password must be atleast 8 characters long.'),
 
 }).superRefine(
     (data, ctx) =>{
