@@ -54,11 +54,12 @@ User Directory with Map Integration: Fetches and displays user profiles from JSO
 Role-Based Content Access: View posts and comments dynamically based on the user's role. Admins see everything; regular users get limited access.
 
 🔨Setup and installation
+
 1.Grab the repo from GitHub:
 https://github.com/yourusername/devconnect.git
 2.Install required packages
 npm install
-3.Launch the application Locally
+3.Launch the applicatinstallation
 npm run dev
 4.Login form authentication and Error handling
 
