@@ -1,4 +1,4 @@
-Project Description:
+✏️Project Description:
 
 This Next.js application features a dynamic user dashboard and blog post system that simulates real-time interaction with users, posts, and comments by integrating the JSONPlaceholder API. It provides a seamless and interactive experience for managing and exploring content.
 
