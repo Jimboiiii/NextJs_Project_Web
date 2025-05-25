@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Team Member Contributions
+
+Jimboy G. Garais – Lead Developer: Designed and implemented key UI components, developed authentication logic, and integrated the main dashboard functionalities.
+
+Chanda Jaquilml – Built the user registration form using React-Hook-Form and Zod for validation; integrated interactive Google Maps functionality.
+
+Carl Entac – Developed and managed the posts and comments system, including CRUD operations and user interaction features.
+
+Mark Angelo Liray – Focused on frontend styling with TailwindCSS and implemented dynamic data visualizations using ApexCharts.
