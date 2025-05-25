@@ -1,15 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Description:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This Next.js application features a dynamic user dashboard and blog post system that simulates real-time interaction with users, posts, and comments by integrating the JSONPlaceholder API. It provides a seamless and interactive experience for managing and exploring content.
 
-## Learn More
+Key Features:
 
-To learn more about Next.js, take a look at the following resources:
+User Authentication: Intuitive login and registration system with smooth client-side validation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visual Insights: Interactive dashboards with ApexCharts display user, post, and comment stats at a glance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Role-Based Management: Admins can manage all posts and comments, while regular users get a simplified, personalized view.
+
+Location-Enhanced Profiles: Each user profile includes a Google Map component for geographic context.
+
+Modern Frontend Stack: Built with React Hooks and styled using Tailwind CSS for fast, responsive UI.
+
+From user analytics to profile interaction, Human Generator showcases how a mock system can feel functionally real—and visually compelling.
+
 
 ◼️Team Member Contributions
 
