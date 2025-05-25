@@ -35,11 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-Team Member Contributions
+◼️Team Member Contributions
 
 Jimboy G. Garais – Lead Developer: Designed and implemented key UI components, developed authentication logic, and integrated the main dashboard functionalities.
 
-Chanda Jaquilml – Built the user registration form using React-Hook-Form and Zod for validation; integrated interactive Google Maps functionality.
+Chanda Jaquilmo – Built the user registration form using React-Hook-Form and Zod for validation; integrated interactive Google Maps functionality.
 
 Carl Entac – Developed and managed the posts and comments system, including CRUD operations and user interaction features.
 
