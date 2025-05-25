@@ -57,13 +57,17 @@ Role-Based Content Access: View posts and comments dynamically based on the user
 
 1.Grab the repo from GitHub:
 https://github.com/yourusername/devconnect.git
+
 2.Install required packages
 npm install
+
 3.Launch the applicatinstallation
 npm run dev
+
 4.Login form authentication and Error handling
 
 🔗Login Form Authentication
+
 Dual Role Support: Allows both Admin and Regular Users to log in using email and password.
 Admin Access: Fast login with hardcoded credentials 
 
