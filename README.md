@@ -58,8 +58,10 @@ https://github.com/yourusername/devconnect.git
 
 2.Install required packages
 npm install
+
 3.Launch the applicatinstallation
 npm run dev
+
 4.Login form authentication and Error handling
 
 🔗Login Form Authentication
