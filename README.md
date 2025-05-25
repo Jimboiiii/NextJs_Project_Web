@@ -69,4 +69,5 @@ Built with Tailwind CSS for a responsive and accessible interface.
 
 Includes real-time feedback, interactive inputs, and a mobile-friendly layout.
 
-
+◻️Deployed URL:
+https://next-js-project-web.vercel.app/login
