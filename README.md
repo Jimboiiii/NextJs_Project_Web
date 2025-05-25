@@ -45,8 +45,6 @@ Carl Entac – Developed and managed the posts and comments system, including CR
 
 Mark Angelo Liray – Focused on frontend styling with TailwindCSS and implemented dynamic data visualizations using ApexCharts.
 
-Here’s an enhanced and more natural version of your description for a Human Generator feature list:
-
 ◻️ Features
 
 User Directory with Map Integration: Fetches and displays user profiles from JSON Placeholder, complete with address pins on an interactive Leaflet map for easy geolocation.
