@@ -44,3 +44,13 @@ Chanda Jaquilmo – Built the user registration form using React-Hook-Form and Z
 Carl Entac – Developed and managed the posts and comments system, including CRUD operations and user interaction features.
 
 Mark Angelo Liray – Focused on frontend styling with TailwindCSS and implemented dynamic data visualizations using ApexCharts.
+
+Here’s an enhanced and more natural version of your description for a Human Generator feature list:
+
+◻️ Features
+
+User Directory with Map Integration: Fetches and displays user profiles from JSON Placeholder, complete with address pins on an interactive Leaflet map for easy geolocation.
+
+Role-Based Content Access: View posts and comments dynamically based on the user's role. Admins see everything; regular users get limited access.
+
+
